@@ -50,4 +50,4 @@ for x in df.index:
 
 #reseting the index of the data 
 df=df.reset_index(drop=True)
-df
+print(df)
